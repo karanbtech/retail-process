@@ -1,0 +1,9 @@
+Check out and build this project and go to package com.retailprocess
+Run main class named with ApplicationInitializer as a java program
+I have created one dummy user as Affiliate user and it would be tested by Affiliate user by default, 
+You can change this user as an employee or customer by changing Affiliate 
+e.g. User user = Employee.builder() and set user type like UserType.Employee.name().
+Created the Testdata class for creating a test data at run time and will be helpful in running the Test class.
+I have created some test cases for this in OrderServiceImplTest file where I covered all the test cases.
+Run the file by right click and Run as Junit test and you find all the test cases running fine.
+
